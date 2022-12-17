@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <h1>This is Next.js</h1>
+      <Link href="/blog">
+        <h5 style={{ marginTop: '55px' }} >Blog</h5>
+      </Link>
     </div>
   )
 }
