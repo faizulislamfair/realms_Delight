@@ -5,8 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1>      This is NextJS
-      </h1>
+      <h1>This is Next.js</h1>
     </div>
   )
 }
