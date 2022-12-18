@@ -7,7 +7,7 @@ const PostDetails = ({ post }) => {
     const router = useRouter();
 
     const handleBack = () => {
-        router.push("/posts")
+        router.push("/")
     }
 
     return (
@@ -21,7 +21,7 @@ const PostDetails = ({ post }) => {
                     <h1 className="mt-5 text-5xl font-medium">Title: {post?.title}</h1>
                     <p className="text-3xl py-6">{post?.body}</p>
 
-                    <button onClick={handleBack} className="btn btn-secondary">Back to post</button>
+                    <button onClick={handleBack} className="btn btn-secondary">Back to Homepage</button>
 
                 </div>
             </div>
